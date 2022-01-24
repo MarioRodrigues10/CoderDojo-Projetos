@@ -2,7 +2,7 @@ ciclo = 1
 # Criar um ciclo infinito até ser digitado 0 ou qualquer letra do teclado
 while ciclo == 1:
     num = int(input('Diga um número inteiro para passarmos para binário:  '))
-    if num == 0: quit()
+    if num == 0: ciclo = 0
     else:
         binary = ''
         while num != 0:
