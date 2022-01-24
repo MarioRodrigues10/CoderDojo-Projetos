@@ -14,7 +14,7 @@ while ciclo == 1:
             binary += str(remainder)
 
             # O número é dividido por 2 até ser igual a 0
-            num = int(number / 2)
+            num = int(num/ 2)
         # Revertemos a Lista para nos devolver o número correto
         valorFinal = binary[::-1]
         print("O número em binário é: " + (str(valorFinal)))
